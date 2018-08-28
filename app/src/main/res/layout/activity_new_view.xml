@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.im.jhonjson.radaranimation.view.IntegrationView
+        android:id="@+id/RippleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_timely_manner">
+
+        <com.im.jhonjson.radaranimation.view.CircleImageView
+            android:id="@+id/mAccountPhoto"
+            android:layout_width="68dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_launcher"
+            app:CircleImageView_border_color="#ffffff"
+            app:CircleImageView_border_width="1.5dp" />
+
+    </com.im.jhonjson.radaranimation.view.IntegrationView>
+
+</FrameLayout>
